@@ -1,9 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
-#include <stdlib.h>
+
 #include <unistd.h>
+#include <stdlib.h>
+#include <stdarg.h>
+
+/* utils.c */
 int _strlen(const char *);
 int print(char *);
 char *itoa(long int, int);
